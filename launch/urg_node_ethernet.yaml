@@ -1,12 +1,12 @@
 urg_node:
   ros__parameters:
-    angle_max: 3.14
-    angle_min: -3.14
-    ip_address: "192.168.10.100"
-    ip_address_safecop2: "192.168.20.101"
+    angle_max: 1.57
+    angle_min: -1.57
+    ip_address: "192.168.10.100" # RØD
+    ip_address_2: "192.168.20.101" # SORT
     ip_port: 10940
     serial_baud: 115200
-    laser_frame_id: "laser"
+    laser_frame_id: "safecop_laser_link"
     calibrate_time: false
     default_user_latency: 0.0
     diagnostics_tolerance: 0.05
