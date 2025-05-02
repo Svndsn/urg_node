@@ -3,10 +3,10 @@ urg_node:
     angle_max: 1.57
     angle_min: -1.57
     ip_address_2: "192.168.10.100" # RØD
-    ip_address: "192.168.20.101" # SORT
+    ip_address: "192.168.0.10" # NY
     ip_port: 10940
     serial_baud: 115200
-    laser_frame_id: "safecop_laser_link"
+    laser_frame_id: "laser_link"
     calibrate_time: false
     default_user_latency: 0.0
     diagnostics_tolerance: 0.05
